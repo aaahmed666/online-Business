@@ -108,6 +108,20 @@ h3 {
     height: 100%;
 }
 
+.move {
+    position: relative;
+}
+
+.swiper-pagination.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,.swiper-pagination-fraction {
+    bottom:-10px;
+    left:0;
+    width:100%
+}
+
+
+
 /* Start header */
 .header {
     padding: 9px 0 11px 0;
@@ -1069,7 +1083,7 @@ label {
 
 @media (max-width:576px) {
     .view {
-        padding: 50px 0 0;
+        padding: 50px 0;
     }
     .view .swiper {
         padding: 70px 5px 50px;

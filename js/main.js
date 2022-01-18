@@ -13,6 +13,7 @@ var swiper = new Swiper(".product", {
         },
   pagination: {
     el: ".product .swiper-pagination",
+    clickable: true,
   },
   breakpoints: {
     0: {
