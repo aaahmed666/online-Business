@@ -497,7 +497,7 @@ label {
 
 @media (max-width:1199px) {
     .landing {
-        background-repeat: repeat-y;
+        background-size: cover;
     }
 }
 
@@ -953,7 +953,7 @@ label {
         padding: 50px 0;
     }
     .jobs .swiper {
-        padding: 40px 0 0 0;
+        padding: 60px 0 0 0;
     }
 }
 /* End jobs */
@@ -1072,7 +1072,7 @@ label {
         padding: 50px 0 0;
     }
     .view .swiper {
-        padding: 50px 5px;
+        padding: 70px 5px 50px;
     }
     .view .swiper-slide {
         padding: 0;
