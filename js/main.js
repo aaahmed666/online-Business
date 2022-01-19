@@ -149,7 +149,7 @@ var swiper = new Swiper(".view", {
 });
 
 //for navbar in mobile
-let menu = document.querySelector(".icon")
+let menu = document.querySelector(".header .header-content .icon")
 let nav = document.querySelector(".header .list ul")
 let upperlogo = document.querySelector('.upper-logo')
 let close = document.querySelector(".header .list .close")
@@ -160,10 +160,12 @@ overflow.className = "overflow"
 let search = document.querySelector(".find")
 let time = document.querySelector(".header .list .time")
 let git = document.querySelector(".header .list .git")
+let lang = document.querySelector(".header .header-content .lang")
 
 menu.onclick = function () {
     nav.classList.add("open");
     close.classList.add("open");
+    lang.classList.add("open");
     document.body.appendChild(modal);
     document.body.style.overflow = "hidden";
 };
@@ -171,6 +173,7 @@ menu.onclick = function () {
 close.onclick = function () {
     this.parentElement.classList.remove("open");
     close.classList.remove("open");
+    lang.classList.remove("open");
     modal.remove('.popup');
     document.body.style.overflow = "auto";
 };
@@ -194,6 +197,7 @@ modal.onclick = function () {
   close.classList.remove("open");
   git.classList.remove("open");
   time.classList.remove("open");
+  lang.classList.remove("open");
   modal.remove('.popup');
   document.body.style.overflow = "auto";
 }
