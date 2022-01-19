@@ -236,6 +236,7 @@ h3 {
     transform: translateY(-50%);
     color: #000;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .header .icon,
@@ -877,7 +878,7 @@ label {
         margin-bottom: 10px;
     }
     .company .swiper-slide {
-        margin: 10px 10px 20px 0 !important;
+        margin: 15px 10px 20px 0 !important;
     }
 }
 /* End Company */
@@ -1377,6 +1378,7 @@ label {
     background-color: var(--main-color);
     color: #FFF;
     margin: 0;
+    cursor: pointer;
 }
 
 .footer .search p.copy {
