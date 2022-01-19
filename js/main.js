@@ -3,6 +3,10 @@ $(document).ready(function() {
     $(".say").select2({
         dir: "rtl"
       });
+
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
 });
 
 var swiper = new Swiper(".product", {

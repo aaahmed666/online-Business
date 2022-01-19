@@ -1083,38 +1083,13 @@ label {
     box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
 
-.view .tool .uppertool {
-    position: absolute;
-    background-color: #252522;
-    border-radius: 4px;
-    color: #FFF;
-    font-size: 11px;
-    width: 240px;
-    height: 20px;
+.tooltip-inner {
+    max-width: 1200px;
+    padding: 8px;
+    color: #fff;
     text-align: center;
-    top: 0;
-    right: -75px;
-    border: 1px solid #000;
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
-}
-
-.view .tool:hover .uppertool {
-    opacity: 1;
-    pointer-events: auto;
-    top: -26px;
-}
-
-.view .tool .uppertool::before {
-    position: absolute;
-    content:"";
-    height: 8px;
-    width: 8px;
-    background-color: #252522;
-    bottom: -4px;
-    left: 50%;
-    transform: translateX(-50%) rotate(45deg);
+    background-color: #000;
+    font-family: 'Open Sans';
 }
 
 @media(max-width:1199px) {
@@ -1171,6 +1146,7 @@ label {
     justify-content: flex-start;
     align-items: flex-start;
     text-align: start;
+    margin-bottom: 5px;
 }
 
 .footer .time {
@@ -1233,7 +1209,7 @@ label {
 
 .footer .city a {
     display: block;
-    margin-left: 4px;
+    margin-left: 8px;
     font-size: 14px;
     color: #8ea3de;
     text-decoration: none;
@@ -1281,7 +1257,7 @@ label {
 
 .footer .catogry a {
     display: block;
-    margin-left: 4px;
+    margin-left: 8px;
     font-size: 14px;
     color: #8ea3de;
     text-decoration: none;
@@ -1369,6 +1345,10 @@ label {
     margin: 0;
 }
 
+.footer .search p.copy {
+    display: none;
+}
+
 @media (max-width:1199px) {
     .footer form {
         width: 200px;
@@ -1378,9 +1358,6 @@ label {
 @media (max-width:991px) {
     .footer form {
         width: 263px;
-    }
-    .footer .row .order {
-        order: 4;
     }
 }
 
@@ -1411,6 +1388,19 @@ label {
     .footer p.title {
         margin-top: 25px;
         margin-bottom: 8px;
+    }
+    .footer p.copy {
+        display: none;
+    }
+    .footer form {
+        margin-bottom: 10px;
+    }
+    .footer .search p.copy {
+        display: block;
+        font-size: 13px;
+        font-weight: bold;
+        color: #8ea3de;
+        margin: 0;
     }
 }
 /* End footer */
