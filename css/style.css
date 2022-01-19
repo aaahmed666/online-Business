@@ -1115,7 +1115,10 @@ label {
 
 .tooltip-inner {
     max-width: 1200px;
-    padding: 8px;
+    font-size: 11px;
+    width: 240px;
+    height: 18px;
+    padding: 0;
     color: #fff;
     text-align: center;
     background-color: #000;
