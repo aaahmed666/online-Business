@@ -561,6 +561,7 @@ label {
     font-size: 12px;
     color: #FFF;
     transition: 0.3s all ease-in-out;
+    cursor: pointer;
 }
 
 .landing .info:hover a {
