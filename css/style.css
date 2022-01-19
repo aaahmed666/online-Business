@@ -363,6 +363,16 @@ h3 {
     .header .logo img {
         width: 100px;
     }
+    .header .list .git {
+        position: fixed;
+        width: 90%;
+        height: 40px;
+        top: 50%;
+        left: -100%;
+        margin-left: 5%;
+        z-index: 1010;
+        transition: all 1s ease;
+    }
 }
 /* End header */
 /* Start Landing */
@@ -1213,7 +1223,7 @@ label {
 }
 
 .footer .city {
-    max-height: 225px;
+    max-height: 235px;
     overflow-y: auto;
     direction: rtl;
 }
