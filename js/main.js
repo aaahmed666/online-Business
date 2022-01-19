@@ -166,6 +166,7 @@ let time = document.querySelector(".header .list .time")
 let git = document.querySelector(".header .list .git")
 let lang = document.querySelector(".header .header-content .lang")
 
+
 menu.onclick = function () {
     nav.classList.add("open");
     close.classList.add("open");
