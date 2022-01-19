@@ -264,6 +264,7 @@ h3 {
         right: -260px;
         bottom: 0;
         padding-bottom: 300px;
+        padding-right: 10px;
         transition: all 1s ease;
     }
     .header .header-content .lang.open {
