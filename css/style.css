@@ -855,6 +855,9 @@ label {
     .company {
         padding: 50px 0;
     }
+    .company .swiper {
+        padding: 0 5px 10px 5px;
+    }
     .company h2 {
         font-size: 20px;
     }
@@ -1137,11 +1140,14 @@ label {
         padding: 50px 0;
     }
     .view .swiper {
-        padding: 70px 5px 50px;
+        padding: 50px 5px 50px;
     }
     .view .swiper-slide {
         padding: 0;
         margin-bottom: 35px;
+    }
+    .view .move .swiper-pagination {
+        bottom: 5px;
     }
 }
 /* End view */
