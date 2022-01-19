@@ -143,11 +143,11 @@ var swiper = new Swiper(".view", {
     },
     991: {
         slidesPerView: 4,
-        spaceBetween: 30,
+        spaceBetween: 15,
       },
     1199: {
       slidesPerView: 8,
-      spaceBetween: 0,
+      spaceBetween: 15,
     },
   },
 });
