@@ -386,7 +386,7 @@ h3 {
 .landing h1 {
     font-weight: 800;
     color: #FFF;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
     text-transform: uppercase;
     line-height: 32px;
 }
@@ -837,7 +837,6 @@ label {
 .company .swiper-slide img {
     box-shadow: 0 0 8px rgba(0,0,0,0.1);
     border-radius: 50%;
-    border: 1px solid #FFF;
 }
 
 @media (max-width:1199px) {
@@ -1083,7 +1082,7 @@ label {
 }
 
 .view .swiper {
-    padding: 95px 5px 55px 5px;
+    padding: 95px 2px;
 }
 
 .view .box {

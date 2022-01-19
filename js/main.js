@@ -147,7 +147,7 @@ var swiper = new Swiper(".view", {
       },
     1199: {
       slidesPerView: 8,
-      spaceBetween: 30,
+      spaceBetween: 0,
     },
   },
 });
