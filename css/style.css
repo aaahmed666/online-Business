@@ -855,6 +855,13 @@ label {
     .company {
         padding: 50px 0;
     }
+    .company h2 {
+        font-size: 20px;
+    }
+    .company h2 span {
+        font-size: 20px;
+        margin: 0;
+    }
     .company .content {
         margin-bottom: 10px;
     }
