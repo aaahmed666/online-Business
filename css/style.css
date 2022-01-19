@@ -330,19 +330,20 @@ h3 {
     }
     .header .list .time {
         position: fixed;
-        top: 20px;
+        top: 120px;
         margin-left: 50%;
         color: #FFF;
         z-index: 555;
         left: -100%;
         transition: all 1s ease;
         cursor: pointer;
+        color: var(--main-color);
     }
     .header .list .time.open {
         left: 0;
     }
     .header .list .time:hover {
-        color: var(--main-color);
+        color: #FFF;
     }
 }
 @media (max-width:576px) {
@@ -353,8 +354,14 @@ h3 {
         background-color: #FFF;
         box-shadow: 0 7px 20px rgba(0,0,0,0.1);
     }
+    .header .container {
+        padding: 0 15px;
+    }
     .header {
-        padding: 0;
+        padding: 10px 0;
+    }
+    .header .logo img {
+        width: 100px;
     }
 }
 /* End header */
@@ -543,6 +550,7 @@ label {
 @media (max-width:1199px) {
     .landing {
         background-size: cover;
+        background-position: center;
     }
 }
 
@@ -579,6 +587,9 @@ label {
 @media (max-width:576px) {
     .landing {
         padding: 25px 0 25px 0;
+    }
+    .landing h1 {
+        font-size: 27px;
     }
 }
 /* End Landing */
