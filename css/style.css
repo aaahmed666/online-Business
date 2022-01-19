@@ -524,7 +524,7 @@ label {
 .landing .info {
     position: relative;
     width: 117px;
-    height: 45px;
+    height: 46px;
     margin-top: 20px;
     box-shadow: 0 0 15px rgba(1,1,1,0.1);
     transition: 0.3s all ease-in-out;
@@ -544,13 +544,14 @@ label {
     transition: 0.3s all ease-in-out;
     background-color: var(--main-color);
     border-radius: 4px;
+    padding-left: 15px;
 }
 
 .landing i {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 12px;
+    left: 18px;
     font-size: 12px;
     color: #FFF;
     transition: 0.3s all ease-in-out;
