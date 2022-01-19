@@ -346,6 +346,13 @@ h3 {
     }
 }
 @media (max-width:576px) {
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 55;
+        background-color: #FFF;
+        box-shadow: 0 7px 20px rgba(0,0,0,0.1);
+    }
     .header {
         padding: 0;
     }
@@ -917,7 +924,7 @@ label {
     text-align: center;
     top: 0;
     border-radius: 4px;
-    right: -7px;
+    right: 0;
     border: 1px solid #000;
     opacity: 0;
     pointer-events: none;
@@ -1103,11 +1110,20 @@ label {
     .view .swiper {
         padding: 95px 5px 100px;
     }
+    .view .tool .uppertool {
+        right: -55px;
+    }
 }
 
 @media (max-width:991px) {
     .view .swiper-slide {
         padding: 10px;
+    }
+}
+
+@media (max-width:767px) {
+    .view .tool .uppertool {
+        right: -80px;
     }
 }
 
