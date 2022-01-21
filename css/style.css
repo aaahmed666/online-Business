@@ -765,6 +765,18 @@ html[dir="rtl"] .select2-container--default .select2-selection--single .select2-
     left: -150px;
 }
 
+@media (max-width:767px) {
+    html[dir="rtl"] .select2-container--default .select2-selection--single .select2-selection__arrow b {
+        left: -465px;
+    }
+}
+
+@media (max-width:576px) {
+    html[dir="rtl"] .select2-container--default .select2-selection--single .select2-selection__arrow b {
+        left: -285px;
+    }
+}
+
 .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
     border-color: transparent transparent #c2c2c2 transparent;
 }
