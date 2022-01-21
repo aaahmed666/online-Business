@@ -157,8 +157,8 @@ let menu = document.querySelector(".header .header-content .icon")
 let nav = document.querySelector(".header .list ul")
 let upperlogo = document.querySelector('.upper-logo')
 let close = document.querySelector(".header .list .close")
-let modal = document.createElement("div")
-modal.className = "popup"
+let popup = document.querySelector(".header .popup")
+let popupsearch = document.querySelector(".header .popup-search")
 let overflow = document.createElement("div")
 overflow.className = "overflow"
 let search = document.querySelector(".find")
@@ -171,7 +171,7 @@ menu.onclick = function () {
     nav.classList.add("open");
     close.classList.add("open");
     lang.classList.add("open");
-    document.body.appendChild(modal);
+    popup.classList.add("open");
     document.body.style.overflow = "hidden";
 };
 
@@ -179,38 +179,98 @@ close.onclick = function () {
     this.parentElement.classList.remove("open");
     close.classList.remove("open");
     lang.classList.remove("open");
-    modal.remove('.popup');
+    popup.classList.remove("open");
+    popupsearch.classList.remove("open");
     document.body.style.overflow = "auto";
 };
 
 search.onclick = function () {
   git.classList.add("open");
   time.classList.add("open");
-  document.body.appendChild(modal);
+  popupsearch.classList.add("open");
   document.body.style.overflow = "hidden";
 }
 
 time.onclick = function () {
     git.classList.remove("open");
     time.classList.remove("open");
-    modal.remove('.popup');
+    popup.classList.remove("open");
+    popupsearch.classList.remove("open");
     document.body.style.overflow = "auto";
 }
 
-modal.onclick = function () {
+popup.onclick = function () {
   nav.classList.remove("open");
   close.classList.remove("open");
   git.classList.remove("open");
   time.classList.remove("open");
   lang.classList.remove("open");
-  modal.remove('.popup');
+  popup.classList.remove("open");
   document.body.style.overflow = "auto";
 }
 
-
+popupsearch.onclick = function () {
+  nav.classList.remove("open");
+  close.classList.remove("open");
+  git.classList.remove("open");
+  time.classList.remove("open");
+  lang.classList.remove("open");
+  popupsearch.classList.remove("open");
+  document.body.style.overflow = "auto";
+}
 
 document.onkeyup = function (e) {
     if (e.key === "Escape") {
         nav.classList.remove("open");
     }
 };
+
+
+(function(){
+  var doc = document.documentElement;
+  var w = window;
+
+  var curScroll = prevScroll = w.scrollY || doc.scrollTop;
+  var curDirction = prevDirection = 0;
+
+  var header = document.getElementById('side-header');
+
+  var threshold = 100;
+  var toggled;
+
+  var checkScroll = function() {
+      curScroll = w.scrollY || doc.scrollTop;
+      if (curScroll > prevScroll) {
+          curDirction = 2;
+      }
+      else {
+          curDirction = 1;
+      }
+
+      if(curDirction !== prevDirection) {
+          toggled = toggleHeader();
+      }
+
+      if(toggled) {
+
+          prevDirection = curDirction;
+      }
+      prevScroll = curScroll;
+  };
+
+  var toggleHeader = function() {
+      toggled = true;
+      if(curDirction === 2 && curScroll > threshold) {
+          header.classList.add('hide');
+      }
+      else if (curDirction === 1) {
+          header.classList.remove('hide');
+      }
+      else {
+          toggled = false;
+      }
+      return toggled;
+  };
+
+  window.addEventListener("scroll",checkScroll);
+})();
