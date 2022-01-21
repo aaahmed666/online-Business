@@ -7,6 +7,19 @@ $(document).ready(function() {
       $(function () {
         $('[data-toggle="tooltip"]').tooltip()
       })
+
+      if($(window).width() < 767) {
+        $('.footer .down').click (function () {
+            $('.footer .gover i').toggleClass('fa-chevron-down fa-chevron-up');
+            $('.footer .city').slideToggle();
+        });
+    
+        $('.footer .up').click (function () {
+            $('.footer .cat i').toggleClass('fa-chevron-down fa-chevron-up');
+            $('.footer .catogry').slideToggle();
+            $('.footer .list').slideToggle();
+        });
+    } 
 });
 
 var swiper = new Swiper(".product", {
