@@ -568,14 +568,17 @@ html[dir="rtl"] .header .list .git i {
         background-color: #FFF;
         box-shadow: 0 7px 20px rgba(0,0,0,0.1);
     }
-    .header .container {
+    html[dir="ltr"] .header .container {
+        padding: 0 15px;
+    }
+    html[dir="rtl"] .header .container {
         padding: 0 15px;
     }
     .header {
         padding: 10px 0;
     }
     .header .logo img {
-        width: 100px;
+        width: 70px;
     }
     .header .list .git {
         position: fixed;
