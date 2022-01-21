@@ -300,6 +300,11 @@ html[dir="rtl"] .header .container {
     margin-bottom: 15px;
 }
 
+.header .lang a {
+    color: transparent;
+    text-decoration: none;
+}
+
 .header .lang a.login {
     cursor: pointer;
     color: #919090;
