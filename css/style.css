@@ -1,7 +1,7 @@
 :root {
     --main-color: #f7d134;
     --primary-color: #3b559f;
-    --theme-color : #8ea3de;
+    --theme-color: #8ea3de;
 }
 
 * {
@@ -31,115 +31,140 @@ html[dir="ltr"] body {
 @font-face {
     font-family: 'Open Sans';
     font-weight: 800;
-    src: url("../fonts/OpenSans/OpenSans-ExtraBold.ttf"),
+    font-display: swap;
+    src:
         url("../fonts/OpenSans/OpenSans-ExtraBold.woff2"),
-        url("../fonts/OpenSans/OpenSans-ExtraBold.woff");
+        url("../fonts/OpenSans/OpenSans-ExtraBold.woff"),
+        url("../fonts/OpenSans/OpenSans-ExtraBold.ttf");
 }
 
 @font-face {
     font-family: 'Open Sans';
     font-weight: 700;
-    src: url("../fonts/OpenSans/OpenSans-Bold.ttf"),
+    font-display: swap;
+    src:
         url("../fonts/OpenSans/OpenSans-Bold.woff2"),
-        url("../fonts/OpenSans/OpenSans-Bold.woff");
+        url("../fonts/OpenSans/OpenSans-Bold.woff"),
+        url("../fonts/OpenSans/OpenSans-Bold.ttf");
 }
 
 @font-face {
     font-family: 'Open Sans';
     font-weight: 600;
-    src: url("../fonts/OpenSans/OpenSans-SemiBold.ttf"),
+    font-display: swap;
+    src:
         url("../fonts/OpenSans/OpenSans-SemiBold.woff2"),
-        url("../fonts/OpenSans/OpenSans-SemiBold.woff");
+        url("../fonts/OpenSans/OpenSans-SemiBold.woff"),
+        url("../fonts/OpenSans/OpenSans-SemiBold.ttf");
 }
 
 @font-face {
     font-family: 'Open Sans';
     font-weight: 500;
-    src: url("../fonts/OpenSans/OpenSans-Medium.ttf"),
+    font-display: swap;
+    src:
         url("../fonts/OpenSans/OpenSans-Medium.woff2"),
-        url("../fonts/OpenSans/OpenSans-Medium.woff");
+        url("../fonts/OpenSans/OpenSans-Medium.woff"),
+        url("../fonts/OpenSans/OpenSans-Medium.ttf");
 }
 
 @font-face {
     font-family: 'Open Sans';
     font-weight: 400;
-    font-style: normal;
-    src: url("../fonts/OpenSans/OpenSans-Regular.ttf"),
+    font-display: swap;
+    src:
         url("../fonts/OpenSans/OpenSans-Regular.woff2"),
-        url("../fonts/OpenSans/OpenSans-Regular.woff");
+        url("../fonts/OpenSans/OpenSans-Regular.woff"),
+        url("../fonts/OpenSans/OpenSans-Regular.ttf");
 }
 
 @font-face {
     font-family: 'Open Sans';
     font-weight: 400;
     font-style: italic;
-    src: url("../fonts/OpenSans/OpenSans-Italic.ttf"),
-        url("../fonts/OpenSans/OpenSans-Italic.woff2"),
-        url("../fonts/OpenSans/OpenSans-Italic.woff");
+    font-display: swap;
+    src: url("../fonts/OpenSans/OpenSans-Italic.woff2"),
+        url("../fonts/OpenSans/OpenSans-Italic.woff"),
+        url("../fonts/OpenSans/OpenSans-Italic.ttf");
 }
 
 @font-face {
     font-family: 'Open Sans';
     font-weight: 300;
-    src: url("../fonts/OpenSans/OpenSans-Light.ttf"),
+    font-display: swap;
+    src:
         url("../fonts/OpenSans/OpenSans-Light.woff2"),
-        url("../fonts/OpenSans/OpenSans-Light.woff");
+        url("../fonts/OpenSans/OpenSans-Light.woff"),
+        url("../fonts/OpenSans/OpenSans-Light.ttf");
 }
 
 @font-face {
     font-family: 'Tajawal';
     font-weight: 900;
-    src: url("../fonts/Tajawal/Tajawal-Black.ttf"),
+    src:
         url("../fonts/Tajawal/Tajawal-Black.woff2"),
-        url("../fonts/Tajawal/Tajawal-Black.woff");
+        url("../fonts/Tajawal/Tajawal-Black.woff"),
+        url("../fonts/Tajawal/Tajawal-Black.ttf");
 }
 
 @font-face {
     font-family: 'Tajawal';
     font-weight: 800;
-    src: url("../fonts/Tajawal/Tajawal-ExtraBold.ttf"),
+    font-display: swap;
+    src:
         url("../fonts/Tajawal/Tajawal-ExtraBold.woff2"),
-        url("../fonts/Tajawal/Tajawal-ExtraBold.woff");
+        url("../fonts/Tajawal/Tajawal-ExtraBold.woff"),
+        url("../fonts/Tajawal/Tajawal-ExtraBold.ttf");
 }
 
 @font-face {
     font-family: 'Tajawal';
     font-weight: 700;
-    src: url("../fonts/Tajawal/Tajawal-Bold.ttf"),
+    font-display: swap;
+    src:
         url("../fonts/Tajawal/Tajawal-Bold.woff2"),
-        url("../fonts/Tajawal/Tajawal-Bold.woff");
+        url("../fonts/Tajawal/Tajawal-Bold.woff"),
+        url("../fonts/Tajawal/Tajawal-Bold.ttf");
 }
 
 @font-face {
     font-family: 'Tajawal';
     font-weight: 500;
-    src: url("../fonts/Tajawal/Tajawal-Medium.ttf"),
+    font-display: swap;
+    src:
         url("../fonts/Tajawal/Tajawal-Medium.woff2"),
-        url("../fonts/Tajawal/Tajawal-Medium.woff");
+        url("../fonts/Tajawal/Tajawal-Medium.woff"),
+        url("../fonts/Tajawal/Tajawal-Medium.ttf");
 }
 
 @font-face {
     font-family: 'Tajawal';
     font-weight: 400;
-    src: url("../fonts/Tajawal/Tajawal-Regular.ttf"),
+    font-display: swap;
+    src:
         url("../fonts/Tajawal/Tajawal-Regular.woff2"),
-        url("../fonts/Tajawal/Tajawal-Regular.woff");
+        url("../fonts/Tajawal/Tajawal-Regular.woff"),
+        url("../fonts/Tajawal/Tajawal-Regular.ttf");
 }
 
 @font-face {
     font-family: 'Tajawal';
     font-weight: 300;
-    src: url("../fonts/Tajawal/Tajawal-Light.ttf"),
+    font-display: swap;
+    src:
         url("../fonts/Tajawal/Tajawal-Light.woff2"),
-        url("../fonts/Tajawal/Tajawal-Light.woff");
+        url("../fonts/Tajawal/Tajawal-Light.woff"),
+        url("../fonts/Tajawal/Tajawal-Light.ttf");
 }
 
 @font-face {
     font-family: 'Tajawal';
     font-weight: 200;
-    src: url("../fonts/Tajawal/Tajawal-ExtraLight.ttf"),
+    font-display: swap;
+    src:
         url("../fonts/Tajawal/Tajawal-ExtraLight.woff2"),
-        url("../fonts/Tajawal/Tajawal-ExtraLight.woff");
+        url("../fonts/Tajawal/Tajawal-ExtraLight.woff"),
+        url("../fonts/Tajawal/Tajawal-ExtraLight.ttf");
 }
 
 @media (min-width: 1200px) {
@@ -173,7 +198,7 @@ h3 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     z-index: 50;
     width: 100%;
     height: 100%;
@@ -216,22 +241,26 @@ h3 {
 }
 
 @media (max-width:1199px) {
+
     .swiper-pagination.swiper-horizontal>.swiper-pagination-bullets,
     .swiper-pagination-bullets.swiper-pagination-horizontal,
-    .swiper-pagination-custom,.swiper-pagination-fraction {
-        bottom:-45px;
-        left:0;
-        width:100%
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: -45px;
+        left: 0;
+        width: 100%
     }
 }
 
 @media (max-width:576px) {
-.swiper-pagination.swiper-horizontal>.swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal,
-.swiper-pagination-custom,.swiper-pagination-fraction {
-    bottom:-15px;
-    left:0;
-    width:100%
+
+    .swiper-pagination.swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: -15px;
+        left: 0;
+        width: 100%
     }
 }
 
@@ -266,7 +295,7 @@ html[dir="rtl"] .tooltip-inner {
     transition: all 0.3s ease;
     z-index: 100;
     background-color: #FFF;
-    box-shadow: 15px 15px 20px rgba(1,1,1,0.1);
+    box-shadow: 15px 15px 20px rgba(1, 1, 1, 0.1);
 }
 
 #side-header.hide {
@@ -424,14 +453,17 @@ html[dir="rtl"] .header .list .git i {
         flex-direction: row;
         justify-content: space-between;
     }
+
     .header .icon,
     .header .find {
         display: block;
     }
+
     .header .close,
     .header .time {
         display: block;
     }
+
     .header .header-content .lang {
         position: fixed;
         z-index: 5555;
@@ -439,33 +471,40 @@ html[dir="rtl"] .header .list .git i {
         transition: all 1s ease;
         height: 100%;
     }
+
     html[dir="ltr"] .header .header-content .lang {
         left: -260px;
     }
+
     html[dir="rtl"] .header .header-content .lang {
         right: -260px;
     }
+
     html[dir="ltr"] .header .header-content .lang.open {
         left: 10px;
     }
+
     html[dir="rtl"] .header .header-content .lang.open {
         right: 10px;
     }
+
     .header .icon {
         margin: 0 15px;
         color: var(--primary-color);
         cursor: pointer;
     }
+
     .header .find {
         color: var(--primary-color);
         cursor: pointer;
     }
+
     .header .header-content .list ul {
         transition: all 1s ease;
         display: flex;
         flex-direction: column;
         background-color: white;
-        width:260px;
+        width: 260px;
         height: 100%;
         position: fixed;
         top: 0;
@@ -477,18 +516,23 @@ html[dir="rtl"] .header .list .git i {
         align-items: flex-end;
         margin: 0;
     }
+
     html[dir="rtl"] .header .header-content .list ul {
         right: -260px;
     }
+
     html[dir="ltr"] .header .header-content .list ul {
         left: -260px;
     }
+
     html[dir="rtl"] .header .header-content .list ul.open {
         right: 0;
     }
+
     html[dir="ltr"] .header .header-content .list ul.open {
         left: 0;
     }
+
     .header .list .close {
         display: flex;
         position: fixed;
@@ -497,22 +541,28 @@ html[dir="rtl"] .header .list .git i {
         cursor: pointer;
         color: var(--primary-color);
     }
+
     html[dir="ltr"] .header .list .close {
         left: -260px;
     }
+
     html[dir="rtl"] .header .list .close {
         right: -260px;
     }
+
     html[dir="ltr"] .header .list .close.open {
         left: 230px;
     }
+
     html[dir="rtl"] .header .list .close.open {
         right: 230px;
     }
+
     .header .list .close:hover {
         color: var(--main-color);
         transform: rotate(90deg);
     }
+
     .header .list .git {
         position: fixed;
         width: 50%;
@@ -522,18 +572,23 @@ html[dir="rtl"] .header .list .git i {
         z-index: 1010;
         transition: all 1s ease;
     }
+
     html[dir="ltr"] .header .list .git {
         left: -100%;
     }
+
     html[dir="rtl"] .header .list .git {
         right: -100%;
     }
+
     html[dir="ltr"] .header .list .git.open {
         left: 0;
     }
+
     html[dir="rtl"] .header .list .git.open {
         right: 0;
     }
+
     .header .list i.time {
         position: absolute;
         top: -50px;
@@ -542,67 +597,85 @@ html[dir="rtl"] .header .list .git i {
         cursor: pointer;
         color: var(--main-color);
     }
+
     html[dir="ltr"] .header .list .time {
         margin-left: 50%;
     }
+
     html[dir="rtl"] .header .list .time {
         margin-right: 50%;
     }
+
     html[dir="ltr"] .header .list .time {
         left: -100%;
     }
+
     html[dir="rtl"] .header .list .time {
         right: -100%;
     }
+
     html[dir="ltr"] .header .list .time.open {
         left: 0;
     }
+
     html[dir="rtl"] .header .list .time.open {
         right: 0;
     }
+
     .header .list .time:hover {
         color: #FFF;
     }
+
     .header .lang .image {
         position: fixed;
         top: 60px;
         left: -260px;
         transition: all 1s ease;
     }
+
     html[dir="ltr"] .header .lang .image {
         left: -260px;
     }
+
     html[dir="rtl"] .header .lang .image {
         right: -260px;
     }
+
     html[dir="ltr"] .header .lang .image.open {
         left: 0;
     }
+
     html[dir="rtl"] .header .lang .image.open {
         right: 0;
     }
 
 }
+
 @media (max-width:576px) {
     header {
         position: sticky;
         top: 0;
         z-index: 55;
         background-color: #FFF;
-        box-shadow: 0 7px 20px rgba(0,0,0,0.1);
+        box-shadow: 0 7px 20px rgba(0, 0, 0, 0.1);
     }
+
     html[dir="ltr"] .header .container {
         padding: 0 15px;
     }
+
     html[dir="rtl"] .header .container {
         padding: 0 15px;
     }
+
     .header {
         padding: 10px 0;
     }
+
     .header .logo img {
         width: 70px;
     }
+
     .header .list .git {
         position: fixed;
         width: 90%;
@@ -611,19 +684,24 @@ html[dir="rtl"] .header .list .git i {
         z-index: 1010;
         transition: all 1s ease;
     }
+
     html[dir="ltr"] .header .list .git {
         margin-left: 5%;
     }
+
     html[dir="rtl"] .header .list .git {
         margin-right: 5%;
     }
+
     html[dir="ltr"] .header .list .git {
         left: -100%;
     }
+
     html[dir="rtl"] .header .list .git {
         right: -100%;
     }
 }
+
 /* End header */
 /* Start Landing */
 .landing {
@@ -825,7 +903,7 @@ html[dir="rtl"] .select2-container--default .select2-selection--single .select2-
 }
 
 .select2-dropdown {
-    box-shadow: 0 10px 27px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.1);
 }
 
 .landing .info {
@@ -833,7 +911,7 @@ html[dir="rtl"] .select2-container--default .select2-selection--single .select2-
     width: 117px;
     height: 46px;
     margin-top: 20px;
-    box-shadow: 0 0 15px rgba(1,1,1,0.1);
+    box-shadow: 0 0 15px rgba(1, 1, 1, 0.1);
     transition: 0.3s all ease-in-out;
 }
 
@@ -882,7 +960,7 @@ html[dir="rtl"] .landing i {
 .landing .info:hover a {
     background-color: #FFF;
     color: var(--main-color);
-    box-shadow: 7px 0 10px rgba(0,0,0,0.1);
+    box-shadow: 7px 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .landing .info:hover i {
@@ -892,8 +970,8 @@ html[dir="rtl"] .landing i {
 
 @media (max-width:1199px) {
     .landing {
-        background-size: cover;
-        background-position: center;
+        background: var(--primary-color);
+        background-image: none;
     }
 }
 
@@ -908,19 +986,23 @@ html[dir="rtl"] .landing i {
     .landing h1 {
         margin-bottom: 20px;
     }
+
     .landing form {
         justify-content: flex-start;
         align-items: flex-start;
         text-align: start;
         flex-direction: column;
     }
+
     .landing label {
         width: 100%;
         margin-bottom: 10px;
     }
+
     .landing .info {
         margin-top: 10px;
     }
+
     .landing .select2-container {
         width: 100% !important;
         height: 45px;
@@ -931,10 +1013,12 @@ html[dir="rtl"] .landing i {
     .landing {
         padding: 25px 0;
     }
+
     .landing h1 {
         font-size: 27px;
     }
 }
+
 /* End Landing */
 /* Start product */
 .product {
@@ -987,7 +1071,7 @@ html[dir="rtl"] .landing i {
     align-items: center;
     flex-direction: column;
     border-radius: 4px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
 .product .image {
@@ -1069,14 +1153,17 @@ html[dir="rtl"] .product .tool {
     .product {
         padding: 50px 0;
     }
+
     .product .swiper-slide {
         margin-bottom: 30px;
     }
+
     .product .box {
         width: 310px;
         margin: auto;
     }
 }
+
 /* End product */
 /* Start Company */
 .company {
@@ -1146,7 +1233,7 @@ html[dir="rtl"] .company .swiper-slide {
 }
 
 .company .swiper-slide img {
-    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     border-radius: 50%;
 }
 
@@ -1154,6 +1241,7 @@ html[dir="rtl"] .company .swiper-slide {
     html[dir="ltr"] .company .swiper-slide {
         margin: 0 2px 0 0 !important;
     }
+
     html[dir="rtl"] .company .swiper-slide {
         margin: 0 2px 0 0 !important;
     }
@@ -1163,6 +1251,7 @@ html[dir="rtl"] .company .swiper-slide {
     html[dir="ltr"] .company .swiper-slide {
         margin: 0 15px 0 0 !important;
     }
+
     html[dir="rtl"] .company .swiper-slide {
         margin: 0 0 0 10px !important;
     }
@@ -1172,26 +1261,33 @@ html[dir="rtl"] .company .swiper-slide {
     .company {
         padding: 50px 0;
     }
+
     .company .swiper {
         padding: 0 5px 10px 5px;
     }
+
     .company h2 {
         font-size: 20px;
     }
+
     .company h2 span {
         font-size: 20px;
         margin: 0;
     }
+
     .company .content {
         margin-bottom: 10px;
     }
+
     html[dir="ltr"] .company .swiper-slide {
         margin: 15px 10px 20px 0 !important;
     }
+
     html[dir="rtl"] .company .swiper-slide {
         margin: 15px 0 20px 10px !important;
     }
 }
+
 /* End Company */
 /* Start jobs */
 .jobs {
@@ -1258,7 +1354,7 @@ html[dir="rtl"] .jobs .swiper-slide {
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
 .jobs .image {
@@ -1333,8 +1429,17 @@ html[dir="rtl"] .jobs .tool {
     html[dir="ltr"] .jobs .swiper-slide {
         margin: 0 0 20px 0 !important;
     }
+
     html[dir="rtl"] .jobs .swiper-slide {
         margin: 20px 0 0 0 !important;
+    }
+}
+
+@media (max-width:767px) {
+    .jobs .move .swiper-pagination {
+        bottom: -20px;
+        left: 0;
+        width: 100%
     }
 }
 
@@ -1342,22 +1447,17 @@ html[dir="rtl"] .jobs .tool {
     .jobs {
         padding: 50px 0;
     }
+
     .jobs .box {
         width: 310px;
         margin: auto;
     }
+
     .jobs .swiper {
-        padding: 60px 0 0 0;
+        padding: 30px 0 0 0;
     }
 }
 
-@media (max-width:767px) {
-    .jobs .move .swiper-pagination {
-        bottom:-20px;
-        left:0;
-        width:100%
-    }
-}
 /* End jobs */
 /* Start view */
 .view {
@@ -1411,7 +1511,7 @@ html[dir="rtl"] .jobs .tool {
     max-width: 100%;
     width: 100%;
     position: relative;
-    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
 .view .image img {
@@ -1436,6 +1536,7 @@ html[dir="rtl"] .jobs .tool {
     .view {
         padding: 80px 0;
     }
+
     .view .swiper {
         padding: 50px 5px 0;
     }
@@ -1445,17 +1546,21 @@ html[dir="rtl"] .jobs .tool {
     .view {
         padding: 50px 0;
     }
+
     .view .swiper {
-        padding: 50px 5px;
+        padding: 30px 5px;
     }
+
     .view .swiper-slide {
         padding: 0;
         margin-bottom: 35px;
     }
+
     .view .move .swiper-pagination {
         bottom: 5px;
     }
 }
+
 /* End view */
 /* Start footer */
 .footer {
@@ -1564,7 +1669,7 @@ html[dir="ltr"] .footer .city {
 
 html[dir="rtl"] .footer .city {
     direction: ltr;
-} 
+}
 
 .footer .city a {
     display: block;
@@ -1748,7 +1853,7 @@ html[dir="rtl"] .footer form i {
 
 .footer form i:hover {
     background-color: var(--primary-color);
-} 
+}
 
 .footer .search p.copy {
     display: none;
@@ -1772,6 +1877,14 @@ html[dir="rtl"] .footer form i {
 }
 
 @media (max-width:767px) {
+    html[dir="rtl"] .footer {
+        background: var(--primary-color);
+        background-image: none;
+    }
+    html[dir="ltr"] .footer {
+        background: var(--primary-color);
+        background-image: none;
+    }
     .footer .up i,
     .footer .down i {
         display: block;
@@ -1782,6 +1895,7 @@ html[dir="rtl"] .footer form i {
     .footer {
         padding: 30px 0;
     }
+
     .footer .logo,
     .footer .last,
     .footer .search {
@@ -1793,43 +1907,54 @@ html[dir="rtl"] .footer form i {
         margin-bottom: 20px;
         text-align: center;
     }
+
     .footer .time {
         margin-bottom: 15px;
     }
+
     .footer .social {
         margin-bottom: 20px;
     }
+
     .footer p.go {
         padding-top: 15px;
         padding-bottom: 15px;
     }
+
     .footer p.item {
         padding-top: 15px;
         padding-bottom: 15px;
     }
+
     .footer .list {
         padding-top: 30px;
     }
+
     .footer p.title {
         margin-top: 35px;
         margin-bottom: 8px;
         text-align: center;
     }
+
     .footer p.sub-title {
         text-align: center;
     }
+
     .footer p.copy {
         display: none;
     }
+
     .footer form {
         margin-bottom: 15px;
         height: 45px;
     }
+
     .footer form i {
         width: 40px;
         height: 40px;
         line-height: 40px;
     }
+
     .footer .search p.copy {
         display: block;
         font-size: 13px;
@@ -1837,10 +1962,12 @@ html[dir="rtl"] .footer form i {
         color: #8ea3de;
         margin: 0;
     }
+
     .footer .city,
     .footer .catogry,
     .footer .list {
         display: none;
     }
 }
+
 /* End footer */
