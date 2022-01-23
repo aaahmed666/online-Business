@@ -1,8 +1,11 @@
 $(document).ready(function() {
-    $('.say').select2();
     $(".say").select2({
         dir: "rtl"
       });
+      // $(".say-last").select2({
+      //   dir: "rtl",
+      //   dropdownCssClass: "last-element" 
+      // });
 
       $(function () {
         $('[data-toggle="tooltip"]').tooltip()
@@ -17,7 +20,6 @@ $(document).ready(function() {
         $('.footer .up').click (function () {
             $('.footer .cat i').toggleClass('fa-chevron-down fa-chevron-up');
             $('.footer .catogry').slideToggle();
-            $('.footer .list').slideToggle();
         });
     } 
 });
@@ -218,6 +220,7 @@ popup.onclick = function () {
   time.classList.remove("open");
   lang.classList.remove("open");
   popup.classList.remove("open");
+  image.classList.remove("open");
   document.body.classList.remove('ovh');
 }
 
