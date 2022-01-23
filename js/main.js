@@ -13,7 +13,7 @@ $(document).ready(function() {
             $('.footer .gover i').toggleClass('fa-chevron-down fa-chevron-up');
             $('.footer .city').slideToggle();
         });
-    
+
         $('.footer .up').click (function () {
             $('.footer .cat i').toggleClass('fa-chevron-down fa-chevron-up');
             $('.footer .catogry').slideToggle();
@@ -178,8 +178,6 @@ let git = document.querySelector(".header .list .git")
 let lang = document.querySelector(".header .header-content .lang")
 let image = document.querySelector(".header .lang .image")
 
-
-
 menu.onclick = function () {
     nav.classList.add("open");
     close.classList.add("open");
@@ -243,12 +241,9 @@ document.onkeyup = function (e) {
 (function(){
   var doc = document.documentElement;
   var w = window;
-
   var curScroll = prevScroll = w.scrollY || doc.scrollTop;
   var curDirction = prevDirection = 0;
-
   var header = document.getElementById('side-header');
-
   var threshold = 100;
   var toggled;
 
@@ -266,7 +261,6 @@ document.onkeyup = function (e) {
       }
 
       if(toggled) {
-
           prevDirection = curDirction;
       }
       prevScroll = curScroll;
