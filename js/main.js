@@ -172,12 +172,12 @@ let upperlogo = document.querySelector('.upper-logo')
 let close = document.querySelector(".header .list .close")
 let popup = document.querySelector(".header .popup")
 let popupsearch = document.querySelector(".header .popup-search")
-let overflow = document.createElement("div")
-overflow.className = "overflow"
 let search = document.querySelector(".find")
 let time = document.querySelector(".header .list .time")
 let git = document.querySelector(".header .list .git")
 let lang = document.querySelector(".header .header-content .lang")
+let image = document.querySelector(".header .lang .image")
+
 
 
 menu.onclick = function () {
@@ -185,7 +185,8 @@ menu.onclick = function () {
     close.classList.add("open");
     lang.classList.add("open");
     popup.classList.add("open");
-    document.body.style.overflow = "hidden";
+    image.classList.add("open");
+    document.body.classList.add('ovh');
 };
 
 close.onclick = function () {
@@ -193,15 +194,15 @@ close.onclick = function () {
     close.classList.remove("open");
     lang.classList.remove("open");
     popup.classList.remove("open");
-    popupsearch.classList.remove("open");
-    document.body.style.overflow = "auto";
+    image.classList.remove("open");
+    document.body.classList.remove('ovh');
 };
 
 search.onclick = function () {
   git.classList.add("open");
   time.classList.add("open");
   popupsearch.classList.add("open");
-  document.body.style.overflow = "hidden";
+  document.body.classList.add('ovh');
 }
 
 time.onclick = function () {
@@ -209,7 +210,7 @@ time.onclick = function () {
     time.classList.remove("open");
     popup.classList.remove("open");
     popupsearch.classList.remove("open");
-    document.body.style.overflow = "auto";
+    document.body.classList.remove('ovh');
 }
 
 popup.onclick = function () {
@@ -219,7 +220,7 @@ popup.onclick = function () {
   time.classList.remove("open");
   lang.classList.remove("open");
   popup.classList.remove("open");
-  document.body.style.overflow = "auto";
+  document.body.classList.remove('ovh');
 }
 
 popupsearch.onclick = function () {
@@ -229,7 +230,7 @@ popupsearch.onclick = function () {
   time.classList.remove("open");
   lang.classList.remove("open");
   popupsearch.classList.remove("open");
-  document.body.style.overflow = "auto";
+  document.body.classList.remove('ovh');
 }
 
 document.onkeyup = function (e) {

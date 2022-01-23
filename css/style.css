@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+body.ovh {
+    overflow: hidden;
+}
+
 html[dir="ltr"] body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -449,11 +453,11 @@ html[dir="rtl"] .header .list .git i {
     }
     .header .icon {
         margin: 0 15px;
-        color: var(--main-color);
+        color: var(--primary-color);
         cursor: pointer;
     }
     .header .find {
-        color: var(--main-color);
+        color: var(--primary-color);
         cursor: pointer;
     }
     .header .header-content .list ul {
@@ -513,7 +517,7 @@ html[dir="rtl"] .header .list .git i {
         position: fixed;
         width: 50%;
         height: 40px;
-        top: 50%;
+        top: 200px;
         margin-left: 25%;
         z-index: 1010;
         transition: all 1s ease;
@@ -530,9 +534,9 @@ html[dir="rtl"] .header .list .git i {
     html[dir="rtl"] .header .list .git.open {
         right: 0;
     }
-    .header .list .time {
-        position: fixed;
-        top: 120px;
+    .header .list i.time {
+        position: absolute;
+        top: -50px;
         z-index: 555;
         transition: all 1s ease;
         cursor: pointer;
@@ -559,6 +563,25 @@ html[dir="rtl"] .header .list .git i {
     .header .list .time:hover {
         color: #FFF;
     }
+    .header .lang .image {
+        position: fixed;
+        top: 60px;
+        left: -260px;
+        transition: all 1s ease;
+    }
+    html[dir="ltr"] .header .lang .image {
+        left: -260px;
+    }
+    html[dir="rtl"] .header .lang .image {
+        right: -260px;
+    }
+    html[dir="ltr"] .header .lang .image.open {
+        left: 0;
+    }
+    html[dir="rtl"] .header .lang .image.open {
+        right: 0;
+    }
+
 }
 @media (max-width:576px) {
     header {
@@ -584,7 +607,7 @@ html[dir="rtl"] .header .list .git i {
         position: fixed;
         width: 90%;
         height: 40px;
-        top: 50%;
+        top: 200px;
         z-index: 1010;
         transition: all 1s ease;
     }
@@ -937,14 +960,6 @@ html[dir="rtl"] .landing i {
     color: #1b2335;
 }
 
-html[dir="ltr"] .product h2 span {
-    margin-left: 8px;
-}
-
-html[dir="rtl"] .product h2 span {
-    margin-right: 8px;
-}
-
 .product .content a {
     font-size: 14px;
     font-weight: 400;
@@ -1088,14 +1103,6 @@ html[dir="rtl"] .product .tool {
     color: #1b2335;
 }
 
-html[dir="ltr"] .company h2 span  {
-    margin-left: 8px;
-}
-
-html[dir="rtl"] .company h2 span  {
-    margin-right: 8px;
-}
-
 .company .content a {
     font-size: 14px;
     font-weight: 400;
@@ -1207,14 +1214,6 @@ html[dir="rtl"] .company .swiper-slide {
     font-weight: 300;
     text-transform: uppercase;
     color: #1b2335;
-}
-
-html[dir="ltr"] .jobs h2 span {
-    margin-left: 8px;
-}
-
-html[dir="rtl"] .jobs h2 span {
-    margin-right: 8px;
 }
 
 .jobs .content a {
@@ -1384,14 +1383,6 @@ html[dir="rtl"] .jobs .tool {
     color: #1b2335;
 }
 
-html[dir="ltr"] .view h2 span {
-    margin-left: 8px;
-}
-
-html[dir="rtl"] .view h2 span {
-    margin-right: 8px;
-}
-
 .view .content a {
     font-size: 14px;
     font-weight: 400;
@@ -1469,8 +1460,15 @@ html[dir="rtl"] .view h2 span {
 /* Start footer */
 .footer {
     padding: 65px 0 100px 0;
-    background-image: url("../image/foot.png");
     background-size: cover;
+}
+
+html[dir="ltr"] .footer {
+    background-image: url("../image/foot.png");
+}
+
+html[dir="rtl"] .footer {
+    background-image: url("../image/foot-ar.png");
 }
 
 .footer .image {
@@ -1500,16 +1498,16 @@ html[dir="rtl"] .view h2 span {
     margin: 0;
 }
 
-.footer i {
+.footer .logo i {
     color: var(--main-color);
     font-size: 14px;
 }
 
-html[dir="ltr"] .footer i {
+html[dir="ltr"] .footer .logo i {
     margin-right: 15px;
 }
 
-html[dir="rtl"] .footer i {
+html[dir="rtl"] .footer .logo i {
     margin-left: 15px;
 }
 
