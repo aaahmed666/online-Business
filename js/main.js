@@ -14,12 +14,18 @@ $(document).ready(function() {
       if($(window).width() < 767) {
         $('.footer .down').click (function () {
             $('.footer .gover i').toggleClass('fa-chevron-down fa-chevron-up');
-            $('.footer .city').slideToggle();
+            $('.footer .city').slideToggle(function(){
+              if ($(this).is(':visible'))
+              $(this).css('display','inline-block');
+            });
         });
 
         $('.footer .up').click (function () {
             $('.footer .cat i').toggleClass('fa-chevron-down fa-chevron-up');
-            $('.footer .catogry').slideToggle();
+            $('.footer .catogry').slideToggle(function(){
+              if ($(this).is(':visible'))
+              $(this).css('display','inline-block');
+            });
         });
     } 
 });

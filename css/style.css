@@ -1920,12 +1920,12 @@ html[dir="rtl"] .footer form i {
 
     .footer p.go {
         padding-top: 15px;
-        padding-bottom: 15px;
+        padding-bottom: 10px;
     }
 
     .footer p.item {
         padding-top: 15px;
-        padding-bottom: 15px;
+        padding-bottom: 10px;
     }
 
     .footer .list {
@@ -1935,11 +1935,6 @@ html[dir="rtl"] .footer form i {
     .footer p.title {
         margin-top: 35px;
         margin-bottom: 8px;
-        text-align: center;
-    }
-
-    .footer p.sub-title {
-        text-align: center;
     }
 
     .footer p.copy {
@@ -1968,6 +1963,23 @@ html[dir="rtl"] .footer form i {
     .footer .city,
     .footer .catogry {
         display: none;
+        overflow-y: unset;
+    }
+
+    html[dir="rtl"] .footer .catogry a {
+        margin-right: 5px;
+    }
+
+    html[dir="ltr"] .footer .catogry a {
+        margin-left: 5px;
+    }
+
+    html[dir="rtl"] .footer .city a {
+        margin-right: 5px;
+    }
+
+    html[dir="ltr"] .footer .city a {
+        margin-left: 5px;
     }
 }
 
